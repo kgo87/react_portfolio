@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Note Taker",
+    "link": "https://note-taker-heroku-kat.herokuapp.com/",
+    "image": "/note_taker.jpg"
+  },
+  {
+    "name": "Weather Dashboard",
+    "link": "https://kgo87.github.io/weather_dashboard/",
+    "image": "/weather_dashboard.JPG"
+  },
+  {
+    "name": "Dance Database",
+    "link": "https://dance-class-search.herokuapp.com/",
+    "image": "/dance_db.png"
+  },
+  {
+    "name": "Time Planner",
+    "link": "https://kgo87.github.io/time_planner/",
+    "image": "/planner.JPG"
+  },
+  {
+    "name": "Burger App",
+    "link": "https://node-handlebars-heroku-kat.herokuapp.com/",
+    "image": "/burger.jpg"
+  }
+
+]
