@@ -2,6 +2,7 @@
   {
     "name": "Note Taker",
     "link": "https://note-taker-heroku-kat.herokuapp.com/",
+    "repo": "https://github.com/kgo87/note_taker",
     "image": "/note_taker.jpg",
     "technologies": "Express, JavaScript, Node",
     "summary": "An application that allows user to view add, save, and delete notes"
@@ -9,6 +10,7 @@
   {
     "name": "Weather Dashboard",
     "link": "https://kgo87.github.io/weather_dashboard/",
+    "repo": "https://github.com/kgo87/weather_dashboard",
     "image": "/weather_dashboard.JPG",
     "technologies": "OpenWeather API, HTML, CSS, JavaScript",
     "summary": "An interactive application that shows the current weather and 5-day forecast for the selected cities"
@@ -16,6 +18,7 @@
   {
     "name": "Dance Database",
     "link": "https://dance-class-search.herokuapp.com/",
+    "repo": "https://github.com/kgo87/DanceTeacher_db",
     "image": "/dance_db.png",
     "technologies": "MySQL, Sequelize, Passport, Handlebars, jQuery, Bootstrap, Linting",
     "summary": "Interactive application that allows to create and search for dance classes and instructors"
@@ -23,6 +26,7 @@
   {
     "name": "Time Planner",
     "link": "https://kgo87.github.io/time_planner/",
+    "repo": "https://github.com/kgo87/time_planner",
     "image": "/planner.JPG",
     "technologies": "HTML, CSS, JavaScript",
     "summary": "A calendar application for scheduling daily tasks"
@@ -30,9 +34,18 @@
   {
     "name": "Burger App",
     "link": "https://node-handlebars-heroku-kat.herokuapp.com/",
+    "repo": "https://github.com/kgo87/node_handlebars",
     "image": "/burger.jpg",
     "technologies": "MySQL, Handlebars, jQuery",
     "summary": "A restaurant app that lets users input the names of burgers they'd like to eat"
+  },
+  {
+    "name": "Celebrity Checker",
+    "link": "https://jjhphoto.github.io/celebchecker/",
+    "repo": "https://github.com/kgo87/celebchecker",
+    "image": "/proj1.jpg",
+    "technologies": "API packages, JavaScript, HTML, Bulma",
+    "summary": "An application to search for a movie title using OMDB’s API and then check the nationality of the crew using Nationalize’s API"
   }
 
 ]
