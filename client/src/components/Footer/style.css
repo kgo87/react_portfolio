@@ -1,9 +1,14 @@
 footer {
-  background-color: grey;
+  background-color:#7DA2A9;;
   text-align: center;
-  color: honeydew;
-  position: absolute;
+  color: azure;
   width: 100%;
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }
 
 
