@@ -4,8 +4,8 @@ import './App.css';
 import AboutMe from "./pages/AboutMe"
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
-import MyNavbar from "./components/Navbar"
-import PortfolioFooter from "./components/Footer"
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 import Jumbotron from "./components/Jumbotron"
 
 function App() {
@@ -13,13 +13,14 @@ function App() {
       <Router>
       <div>
         <Jumbotron />
-        <MyNavbar />
+        <Navbar />
+        <br></br>
         <Switch>
           <Route exact path="/" component={AboutMe} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
-        <PortfolioFooter />
+        <Footer />
       </div>
       </Router>
     )

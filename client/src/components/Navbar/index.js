@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function MyNavbar() {
+function Navbar() {
 
   return (
 
@@ -19,6 +19,9 @@ function MyNavbar() {
           <li className="nav-item active">
             <a className="nav-link" href="/contact">Contact </a>
           </li>
+          <li className="nav-item active">
+            <a className="nav-link" href="https://docs.google.com/document/d/1kpVZz2VRODdosy6vBhxB6QF7SVNu1FAA8NioZOMAQOE/edit" target="_blank">Resume </a>
+          </li>
 
         </ul>
       </div>
@@ -27,4 +30,4 @@ function MyNavbar() {
   )
 };
 
-export default MyNavbar;
+export default Navbar;

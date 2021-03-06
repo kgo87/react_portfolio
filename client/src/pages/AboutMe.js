@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import "./style.css";
-import BioPic from "../images/intro_kat.jpg"
+import Pic from "../images/intro_kat.jpg"
 
 function AboutMe(){
 
@@ -18,7 +17,7 @@ function AboutMe(){
           <div id="horizontal-line" />
           <Row>
               <Col lg={4}>
-                  <img src={BioPic} alt="KG" className="rounded img-thumbnail" />
+                  <img src={Pic} alt="KG" className="img-fluid img-thumbnail" />
               </Col>
               <Col lg={8}>
                   <p>

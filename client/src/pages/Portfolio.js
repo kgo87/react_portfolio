@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import projects from "../projects.json";
-import PortfolioProject from "../components/PortfolioProject";
+import Project from "../components/Project";
 
 class Projects extends Component {
 
@@ -23,7 +23,7 @@ class Projects extends Component {
                           <br></br>
                           <Row style={{"align-content": "center"}}>
                               {this.state.projects.map(project => (
-                                  <PortfolioProject project={project} />
+                                  <Project project={project} />
                               ))}
                           </Row>
                       </div>

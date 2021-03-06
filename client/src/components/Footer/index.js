@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css"
 
-function PortfolioFooter() {
+function Footer() {
   return(
     <div className="d-flex flex-column">
       <footer className="footer">
@@ -14,4 +14,4 @@ function PortfolioFooter() {
     </div>
   )
 }
-export default PortfolioFooter;
+export default Footer;

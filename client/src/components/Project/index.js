@@ -2,13 +2,13 @@ import React from "react";
 import Col from "react-bootstrap/Col";
 
 
-function PortfolioProject({project}){
+function Project({project}){
 
   return (
     <Col md={6}>
-      <h3 className="projectTitles">{project.name}</h3>
-      <p className="projectTitles"> Summary: {project.summary}</p>
-      <p>Technologies used: {project.technologies}</p>
+      <h3>{project.name}</h3>
+      <p> <span style={{fontWeight: 'bold'}}>Summary: </span> {project.summary}</p>
+      <p> <span style={{fontWeight: 'bold'}}>Technologies used: </span> {project.technologies}</p>
       <img
         src={require("../../images" + project.image)}
         alt={project.name}
@@ -21,4 +21,4 @@ function PortfolioProject({project}){
   )
 } 
 
-export default PortfolioProject;
+export default Project;
