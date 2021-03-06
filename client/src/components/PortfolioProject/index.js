@@ -15,7 +15,7 @@ function PortfolioProject({project}){
         className="projectScreenshots img-fluid rounded"></img>
 
 
-      <a href={project.repo}>GitHub Repository</a>
+      <p>Check out <a href={project.repo}> GitHub Repository </a>  or  <a href={project.link}> Deployed App</a> </p>
     </Col>
 
   )
