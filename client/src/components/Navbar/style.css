@@ -4,16 +4,20 @@
   padding-bottom: 0px;
 }
 
+
+
+
 .navbar-light {
-  background-color:teal;
   padding: 13px 20px;
+  background-color: bisque;
 }
 
 
-
-  .navbar-nav {
-      flex-direction: row;
-      justify-content: center;
-      padding-left: 1em;
-  }
+.navbar-nav {
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 1em;
+  font-size: large;
+  
+}
 

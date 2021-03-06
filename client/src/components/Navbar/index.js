@@ -1,23 +1,28 @@
 import React from "react";
-import { Navbar, Container } from "react-bootstrap";
-import Nav from 'react-bootstrap/Nav';
 import "./style.css";
 
-function MyNavbar(){
+function MyNavbar() {
 
-  return(
-    <Navbar bg="light" expand="lg">
-    <Container fluid="lg">
-   
-      <Nav className="mr-auto">
+  return (
 
-        <Nav.Link className="navItem" href="/">About</Nav.Link>
-        <Nav.Link className="navItem" href="/portfolio">Portfolio</Nav.Link>
-        <Nav.Link className="navItem" href="/contact">Contact</Nav.Link>
-      </Nav>  
-   
-    </Container>
-</Navbar>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav">
+          
+          <li className="nav-item active">
+            <a className="nav-link" href="/">About <span className="sr-only">(current)</span></a>
+          </li>
+          <li className="nav-item active">
+            <a className="nav-link" href="/portfolio">Portfolio </a>
+          </li>
+          <li className="nav-item active">
+            <a className="nav-link" href="/contact">Contact </a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
 
   )
 };
