@@ -1,11 +1,11 @@
 [
   {
-    "name": "Note Taker",
-    "link": "https://note-taker-heroku-kat.herokuapp.com/",
-    "repo": "https://github.com/kgo87/note_taker",
-    "image": "/note_taker.jpg",
-    "technologies": "Express, JavaScript, Node",
-    "summary": "An application that allows user to view add, save, and delete notes"
+    "name": "Vitrual A(Cyst)ant",
+    "link": "https://virtual-acystant.herokuapp.com/",
+    "repo": "https://github.com/kgo87/virtual-acystant",
+    "image": "/virt.png",
+    "technologies": "Mongo, React, Express, TensorFlow, Node, JWT",
+    "summary": "An application uses machine learning to detect skin liason type, and locate a provider"
   },
   {
     "name": "Weather Dashboard",
@@ -46,6 +46,22 @@
     "image": "/proj1.JPG",
     "technologies": "API packages, JavaScript, HTML, Bulma",
     "summary": "An application to search for a movie title using OMDB’s API and then check the nationality of the crew using Nationalize’s API"
+  },
+  {
+    "name": "Book Finder",
+    "link": "https://g-books-search-kat.herokuapp.com/",
+    "repo": "https://github.com/kgo87/react_books_search",
+    "image": "/books.jpeg",
+    "technologies": "Mongo, React, Express, Node",
+    "summary": "A full-stack MERN application to search for and view books using Google API"
+  },
+  {
+    "name": "Note Taker",
+    "link": "https://note-taker-heroku-kat.herokuapp.com/",
+    "repo": "https://github.com/kgo87/note_taker",
+    "image": "/note_taker.jpg",
+    "technologies": "Express, JavaScript, Node",
+    "summary": "An application that allows user to view add, save, and delete notes"
   }
 
 ]
