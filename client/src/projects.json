@@ -1,7 +1,7 @@
 [
   {
     "name": "Vitrual A(Cyst)ant",
-    "link": "https://virtual-acystant.herokuapp.com/",
+    "link": "https://virtual-acystant-kat.herokuapp.com/",
     "repo": "https://github.com/kgo87/virtual-acystant",
     "image": "/virt.png",
     "technologies": "Mongo, React, Express, TensorFlow, Node, JWT",
